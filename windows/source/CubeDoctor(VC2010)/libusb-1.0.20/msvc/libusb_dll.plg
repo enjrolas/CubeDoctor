@@ -1,0 +1,68 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: libusb_dll - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"../Win32/Release/dll/libusb-1.0.res" /i "\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb" /d "NDEBUG" "D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\libusb-1.0.rc"" 
+Creating temporary file "C:\Users\DELL\AppData\Local\Temp\RSP76AF.tmp" with contents
+[
+/nologo /MD /W3 /GX /O2 /I "." /I "../libusb" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_UNICODE" /D "UNICODE" /D "_USRDLL" /U "_MBCS" /FR"../Win32/Release/dll/" /Fo"../Win32/Release/dll/" /Fd"../Win32/Release/dll/" /FD /EHsc /c 
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\core.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\descriptor.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\io.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\os\poll_windows.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\sync.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\os\threads_windows.c"
+"D:\工作事务\威客\DFU下载工具\libusb-1.0.20\libusb\os\windows_usb.c"
+]
+Creating command line "cl.exe @C:\Users\DELL\AppData\Local\Temp\RSP76AF.tmp" 
+Creating temporary file "C:\Users\DELL\AppData\Local\Temp\RSP76D0.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib shell32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /nologo /dll /incremental:no /pdb:"../Win32/Release/dll/libusb-1.0.pdb" /machine:I386 /def:"..\libusb\libusb-1.0.def" /out:"Win32/Release/dll/libusb-1.0.dll" /implib:"../Win32/Release/dll/libusb-1.0.lib" 
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\core.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\descriptor.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\io.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\poll_windows.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\sync.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\threads_windows.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\windows_usb.obj"
+"\工作事务\威客\DFU下载工具\libusb-1.0.20\Win32\Release\dll\libusb-1.0.res"
+]
+Creating command line "link.exe @C:\Users\DELL\AppData\Local\Temp\RSP76D0.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+core.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+descriptor.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+io.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+poll_windows.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+sync.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+threads_windows.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+windows_usb.c
+.\config.h(11) : warning C4616: #pragma warning : warning number '6258' out of range, must be between '4001' and '4999'
+.\errno.h(14) : fatal error C1083: Cannot open include file: 'crtdefs.h': No such file or directory
+Generating Code...
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+libusb-1.0.dll - 7 error(s), 7 warning(s)
+</pre>
+</body>
+</html>
